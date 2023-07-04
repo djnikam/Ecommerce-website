@@ -1,0 +1,41 @@
+.form1, .form2{
+    display: inline-block;
+    padding: 0.5rem;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+}
+
+.f1-ip{
+    border-color: violet;
+}
+
+.auth-toggle-link{
+    margin-top: 2rem;
+    color: blue;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-bottom: 8rem;
+    text-decoration: none;
+}
+
+.error-p{
+    color: red;
+}
+
+button {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    color: #7f6fb7;;
+    border: 1px violet solid;
+    background-color: rgba(255, 255, 255, 0);
+}
+
+button:hover {
+    background-color: #e798ef;
+    color: black;
+}

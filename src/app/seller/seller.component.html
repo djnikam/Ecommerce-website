@@ -1,0 +1,36 @@
+<div class="container" *ngIf="!showLogin">
+    <h1 style="color:darkviolet">Seller Sign Up</h1>
+        <form class="form1" [formGroup]="sign_up1" (ngSubmit)="signup(this.sign_up1.value)">
+            <input class="f1-ip" type="text" placeholder="Enter name" formControlName="u_nm">
+            <br><br>
+            <input class="f1-ip" type="email" placeholder="Enter Email" formControlName="email">
+            <br><br>
+            <input class="f1-ip" type="password" placeholder="Enter Password" formControlName="password">
+            <br><br>
+            <button type="submit">Sign In</button> &nbsp;
+            <!-- <button (click)="clear()">Clear</button> -->
+            <button type="reset">Clear</button>
+        </form>
+        <div>
+            <a (click)="openLogin()">Already have account click on <span class="auth-toggle-link">Login</span></a>
+        </div> 
+</div>
+
+<!-- Login of Seller -->
+
+<div class="container" *ngIf="showLogin">
+    <h1 style="color:darkviolet">Seller Log In</h1>
+    <p class="error-p">{{autherror}}</p>
+        <form class="form2" [formGroup]="log_in1" (ngSubmit)="login(this.log_in1.value)">
+            <input class="f1-ip" type="email" placeholder="Enter Email" formControlName="email">
+            <br><br>
+            <input class="f1-ip" type="password" placeholder="Enter Password" formControlName="password">
+            <br><br>
+            <button type="submit" >Log In</button> &nbsp;
+            <!-- <button (click)="clear()">Clear</button> -->
+            <button type="reset">Clear</button>
+        </form>
+        <div>
+            <a (click)="opensignin()">Don't  have account click on <span class="auth-toggle-link">Sign up</span></a>
+        </div> 
+</div>

@@ -1,0 +1,34 @@
+<ngb-carousel *ngIf="popularproducts">
+	<ng-template *ngFor="let item of popularproducts" ngbSlide>
+		<div class="picsum-img-wrapper">
+			<a routerLink="/product-details/{{item.id}}"><img class="product-home-image" src="{{item.pro_url}}" alt="Random first slide" /></a>
+		</div>
+		<div class="carousel-caption">
+			<h3>{{item.pro_nm}}</h3>
+			<p>{{item.pro_desc}}</p>
+		</div>
+	</ng-template>
+</ngb-carousel>
+<div clss="product-list-wrapper" style="margin-top:8rem ; margin-bottom: 8rem;">
+	<h1 style="color: coral;">Trending  products</h1>
+	<div class="row">
+		<div class="col-sm-3" *ngFor="let ele of trendyproducts">
+			<div class="product-item">
+				<a routerLink="/product-details/{{ele.id}}"><img src="{{ele.pro_url}}" alt="img"></a>
+			<div class="product-detailes">
+				<h6 class="name-head" style="font-size: 1.2rem; font-weight: 600;">{{ele.pro_nm}}</h6>
+				<div class="product-price">
+					<h6>Price : ₹{{ele.pro_price}}</h6>
+				</div>
+				<div class="product-color">
+					<h6>Color : {{ele.pro_color}}</h6>
+				</div>
+			</div>
+			<div class="product-footer">
+				<a routerLink="/product-details/{{ele.id}}"><a class="icons"><fa-icon [icon]="view"></fa-icon></a></a>
+				<a class="icons" (click)="addTOcart(ele.id)"><fa-icon [icon]="cart"></fa-icon></a>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>

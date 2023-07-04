@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Update Product</h1>
+    <p class="msg-p">{{proupdatemsg}}</p>
+    <!-- -->
+        <form class="form1" [formGroup]="updateproduct"  (ngSubmit)="submit(updateproduct.value)" >
+            <input class="f1-ip" type="text" placeholder="Enter Product Name" ngModel="{{productData?.pro_nm}}" formControlName="pro_nm">
+            <br><br>
+            <input class="f1-ip" type="text" placeholder="Enter Product Price" ngModel="{{productData?.pro_price}}" formControlName="pro_price">
+            <br><br>
+            <input class="f1-ip" type="text" placeholder="Enter Prduct Color" ngModel="{{productData?.pro_color}}" formControlName="pro_color">
+            <br><br>
+            <input class="f1-ip" type="text" placeholder="Enter Prduct Category" ngModel="{{productData?.pro_catg}}" formControlName="pro_catg">
+            <br><br>
+            <textarea class="f1-ip" type="text" placeholder="Enter Prduct Description" ngModel="{{productData?.pro_desc}}" formControlName="pro_desc"></textarea>
+            <br><br>
+            <input class="f1-ip" type="url" placeholder="Enter Prduct Image URL" ngModel="{{productData?.pro_url}}" formControlName="pro_url">
+            <br><br>
+            <button type="submit">Update Product</button> &nbsp;
+            <button type="reset">Clear</button>
+        </form>
+</div>

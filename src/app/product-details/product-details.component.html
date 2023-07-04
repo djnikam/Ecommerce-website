@@ -1,0 +1,25 @@
+<div class="row product-details"  *ngIf="productdata">
+    <div class="col-sm-6">
+        <img class="product-img" src="{{productdata.pro_url}}" alt="Image">
+    </div>
+    <div class="col-sm-6">
+        <div class="product-details">
+            <h1>{{productdata.pro_nm}}</h1>
+            <h3><em>Price : ₹{{productdata.pro_price}}</em></h3>
+            <div>
+                <h6>Color :</h6>
+                <h5 [style.background-color]="productdata.pro_color" class="product-color"></h5>
+            </div>
+            <h6>Category : {{productdata.pro_catg}}</h6>
+            <h6>Description : {{productdata.pro_desc}}</h6>
+            <button *ngIf="removeCart" class="buy" (click)="removeFromcart(productdata.id)">Remove from cart</button>
+            <button *ngIf="!removeCart" class="buy" (click)="addTOcart()">Add to cart</button>
+            <button class="buy" (click)="buyNow()">Buy now</button>
+            <div class="quantity-group">
+                <button class="quanti" (click)="quantity('min')">-</button>
+                <input readonly type="text" value="{{proquantity}}">
+                <button class="quanti" (click)="quantity('plus')">+</button>
+            </div>
+        </div>
+    </div>
+</div>

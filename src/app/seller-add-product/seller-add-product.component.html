@@ -1,0 +1,20 @@
+<div class="container">
+    <h1>Add Product</h1>
+    <p class="msg-p">{{addprmsg}}</p>
+        <form class="form1" [formGroup]="Addproduct" (ngSubmit)="submit(Addproduct.value)">
+            <input class="f1-ip" type="text" placeholder="Enter Product Name" formControlName="pro_nm">
+            <br><br>
+            <input class="f1-ip" type="text" placeholder="Enter Product Price" formControlName="pro_price">
+            <br><br>
+            <input class="f1-ip" type="text" placeholder="Enter Prduct Color" formControlName="pro_color">
+            <br><br>
+            <input class="f1-ip" type="text" placeholder="Enter Prduct Category" formControlName="pro_catg">
+            <br><br>
+            <textarea class="f1-ip" type="text" placeholder="Enter Prduct Description" formControlName="pro_desc"></textarea>
+            <br><br>
+            <input class="f1-ip" type="url" placeholder="Enter Prduct Image URL" formControlName="pro_url">
+            <br><br>
+            <button type="submit">Add Product</button> &nbsp;
+            <button type="reset">Clear</button>
+        </form>
+</div>

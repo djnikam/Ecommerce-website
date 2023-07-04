@@ -1,0 +1,29 @@
+<div class="proList">
+    <h1 style="color: rgb(225, 180, 57)">Product List</h1>
+    <p class="msg-p">{{delmsg}}</p>
+    <table>
+        <thead>
+            <th>Image</th>
+            <th>Name</th>
+            <th>Price</th>
+            <th>Color</th>
+            <th>Category</th>
+            <th>Description</th>
+            <th>Delete</th>
+            <th>Update</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of productlist">
+                <td><img src="{{item.pro_url}}" alt="Image"></td>
+                <td>{{item.pro_nm}}</td>
+                <td>{{item.pro_price}}</td>
+                <td>{{item.pro_color}}</td>
+                <td>{{item.pro_catg}}</td>
+                <td>{{item.pro_desc}}</td>
+                <td> <fa-icon  (click)="deleteproduct(item.id)" [icon]="delicon" class="delpro"></fa-icon>
+                <td> <a routerLink="/seller-update-product/{{item.id}}"><fa-icon  [icon]="editicon" class="editpro"></fa-icon></a>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

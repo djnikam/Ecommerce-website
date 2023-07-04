@@ -1,0 +1,61 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 18rem;
+    margin: auto;
+}
+
+.checkout h1{
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.detail{
+
+    text-align: left;
+}
+
+.checkout h3{
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.checkout h4{
+    text-align: left;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.form-input{
+    height: 2rem;
+    margin-bottom: 1rem;
+    padding-left: 1rem;
+    border: 1px violet solid;
+    color: rgb(52, 5, 50);
+}
+
+.max-width{
+    width: 100%;
+}
+
+button {
+    padding: 5px 5px;
+    color: #1864ab;;
+    border: 1px violet solid;
+    background-color: rgba(24, 100, 171, 0.1);
+    margin-right: 3rem;
+    margin-top: 0.5rem;
+}
+
+button:hover {
+    background-color: #e798ef;
+    color: black;
+}
+
+.msg{
+    color: green;
+    text-align: center;
+}

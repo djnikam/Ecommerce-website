@@ -1,0 +1,265 @@
+{
+  "seller": [
+    {
+      "u_nm": "tony",
+      "email": "tony@gmail.com",
+      "password": "tony@123",
+      "id": 3
+    },
+    {
+      "u_nm": "raju",
+      "email": "any@gmail.com",
+      "password": "rasj@1234",
+      "id": 4
+    },
+    {
+      "u_nm": "san",
+      "email": "san@gmail.com",
+      "password": "san@1234",
+      "id": 5
+    },
+    {
+      "u_nm": "Gan",
+      "email": "gan@gmail.com",
+      "password": "gan@1234",
+      "id": 6
+    },
+    {
+      "u_nm": "Dhanraj",
+      "email": "a@gmail.com",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "u_nm": "",
+      "email": "a@gmail.com",
+      "password": "1234",
+      "id": 9
+    },
+    {
+      "u_nm": "",
+      "email": "a@gmail.com",
+      "password": "1234",
+      "id": 10
+    }
+  ],
+  "products": [
+    {
+      "pro_nm": "Apple 14 pro max",
+      "pro_price": "149999",
+      "pro_color": "Gold",
+      "pro_catg": "Mobile",
+      "pro_desc": "17.00 cm (6.7-inch) Super Retina XDR display featuring Always-On and ProMotion\nDynamic Island, a magical new way to interact with iPhone",
+      "pro_url": "https://m.media-amazon.com/images/I/71T5NVOgbpL._SX522_.jpg",
+      "id": 1
+    },
+    {
+      "pro_nm": "Dell Inspiron 5518",
+      "pro_price": "75000",
+      "pro_color": "Silver",
+      "pro_catg": "Laptop",
+      "pro_desc": "Not Available",
+      "pro_url": "https://m.media-amazon.com/images/I/71wtLDwamqS._AC_UY327_FMwebp_QL65_.jpg",
+      "id": 2
+    },
+    {
+      "pro_nm": "Dell Mouse",
+      "pro_price": "1000",
+      "pro_color": "Black",
+      "pro_catg": "Hardware",
+      "pro_desc": "Dell WM-118 Wireless",
+      "pro_url": "https://m.media-amazon.com/images/I/41442+dKbsS._SX679_.jpg",
+      "id": 3
+    },
+    {
+      "pro_nm": "Samsung Galaxy S23 ",
+      "pro_price": "70000",
+      "pro_color": "Black",
+      "pro_catg": "Mobile",
+      "pro_desc": "Not Available",
+      "pro_url": "https://m.media-amazon.com/images/I/61RZDb2mQxL._AC_UY327_FMwebp_QL65_.jpg",
+      "id": 4
+    },
+    {
+      "pro_nm": "Nike shoes",
+      "pro_price": "7500",
+      "pro_color": "White",
+      "pro_catg": "Shoes",
+      "pro_desc": "Venture Runner Mens Running Shoes",
+      "pro_url": "https://m.media-amazon.com/images/I/61kUIyEALCS._UL1500_.jpg",
+      "id": 5
+    },
+    {
+      "pro_nm": "Noise Buds",
+      "pro_price": "1500",
+      "pro_color": "Black",
+      "pro_catg": "Earphones",
+      "pro_desc": "No",
+      "pro_url": "https://m.media-amazon.com/images/I/61TV7LIfvGL._SX522_.jpg",
+      "id": 6
+    },
+    {
+      "pro_nm": "Women sweatshirt",
+      "pro_price": "600",
+      "pro_color": "Pink",
+      "pro_catg": "Clothing",
+      "pro_desc": "No",
+      "pro_url": "https://m.media-amazon.com/images/I/71ppcINjGRL._UL1500_.jpg",
+      "id": 7
+    },
+    {
+      "pro_nm": "Cotton Kurta",
+      "pro_price": "1000",
+      "pro_color": "Orange",
+      "pro_catg": "clothing",
+      "pro_desc": "No",
+      "pro_url": "https://m.media-amazon.com/images/I/41f2MmCKzXL.jpg",
+      "id": 8
+    },
+    {
+      "pro_nm": "American Tourister",
+      "pro_price": "999",
+      "pro_color": "Black",
+      "pro_catg": "Bags",
+      "pro_desc": "Not available",
+      "pro_url": "https://m.media-amazon.com/images/I/81KEKEDFUcL._SY879_.jpg",
+      "id": 9
+    },
+    {
+      "pro_nm": "Classmate plus",
+      "pro_price": "140",
+      "pro_color": "multi",
+      "pro_catg": "Notebook",
+      "pro_desc": "Not available",
+      "pro_url": "https://m.media-amazon.com/images/I/61NUA0O7WTL._SX522_.jpg",
+      "id": 10
+    },
+    {
+      "pro_nm": "Apple 12",
+      "pro_price": "100000",
+      "pro_color": "Gold",
+      "pro_catg": "mobile",
+      "pro_desc": "No",
+      "pro_url": "https://m.media-amazon.com/images/I/71T5NVOgbpL._SX522_.jpg",
+      "id": 11
+    },
+    {
+      "pro_nm": "King",
+      "pro_price": "♾️",
+      "pro_color": "",
+      "pro_catg": "",
+      "pro_desc": "DYPATIL",
+      "pro_url": "https://media.licdn.com/dms/image/C4D03AQHe5hgDgBCQFg/profile-displayphoto-shrink_800_800/0/1634394948634?e=1686182400&v=beta&t=IxczqRBID46-MKluPeOGzIGp9dlcdxb9sOYBbFXyi-g",
+      "id": 12
+    },
+    {
+      "pro_nm": "Women's Knitted",
+      "pro_price": "999",
+      "pro_color": "Black",
+      "pro_catg": "clothing",
+      "pro_desc": "",
+      "pro_url": "https://m.media-amazon.com/images/I/31Dv4PiE8eL.jpg",
+      "id": 13
+    }
+  ],
+  "users": [
+    {
+      "u_nm": "Dhanraj",
+      "email": "a@gmail.com",
+      "password": "123",
+      "id": 1
+    },
+    {
+      "u_nm": "Yash",
+      "email": "y@gmail.com",
+      "password": "y",
+      "id": 2
+    },
+    {
+      "u_nm": "",
+      "email": "y@gmail.com",
+      "password": "y",
+      "id": 3
+    },
+    {
+      "u_nm": "Groot",
+      "email": "a@gmail.com",
+      "password": "1234",
+      "id": 4
+    },
+    {
+      "u_nm": "dj",
+      "email": "y@gmail.com",
+      "password": "y",
+      "id": 5
+    }
+  ],
+  "cart": [
+    {
+      "pro_nm": "Noise Buds",
+      "pro_price": "1500",
+      "pro_color": "Black",
+      "pro_catg": "Earphones",
+      "pro_desc": "No",
+      "pro_url": "https://m.media-amazon.com/images/I/61TV7LIfvGL._SX522_.jpg",
+      "quantity": 3,
+      "productId": 6,
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "pro_nm": "Cotton Kurta",
+      "pro_price": "1000",
+      "pro_color": "Orange",
+      "pro_catg": "clothing",
+      "pro_desc": "No",
+      "pro_url": "https://m.media-amazon.com/images/I/41f2MmCKzXL.jpg",
+      "quantity": 1,
+      "productId": 8,
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "pro_nm": "Dell Mouse",
+      "pro_price": "1000",
+      "pro_color": "Black",
+      "pro_catg": "Hardware",
+      "pro_desc": "Dell WM-118 Wireless",
+      "pro_url": "https://m.media-amazon.com/images/I/41442+dKbsS._SX679_.jpg",
+      "quantity": 3,
+      "productId": 3,
+      "userId": 4,
+      "id": 10
+    },
+    {
+      "pro_nm": "Dell Inspiron 5518",
+      "pro_price": "75000",
+      "pro_color": "Silver",
+      "pro_catg": "Laptop",
+      "pro_desc": "Not Available",
+      "pro_url": "https://m.media-amazon.com/images/I/71wtLDwamqS._AC_UY327_FMwebp_QL65_.jpg",
+      "quantity": 1,
+      "productId": 2,
+      "userId": 4,
+      "id": 11
+    }
+  ],
+  "orders": [
+    {
+      "email": "yash@gmail.com",
+      "address": "yavaluj",
+      "contact": "1234567890",
+      "totalprice": 3900,
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "email": "saghsg",
+      "address": "skansk",
+      "contact": "askjaks",
+      "totalprice": 78100,
+      "userId": 4,
+      "id": 2
+    }
+  ]
+}

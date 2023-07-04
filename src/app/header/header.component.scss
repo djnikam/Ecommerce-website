@@ -1,0 +1,147 @@
+/*
+body{
+    font-family: sans-serif;
+}
+
+.nav{
+    display: flex;
+    // background-color: #f0f0f0;
+    height: 5rem;
+    position: inherit;
+}
+
+.nav h1{
+    color: blueviolet;
+    margin: 0;
+    margin-top: 1rem;
+    font-size: 2.5rem;
+}
+
+.nav ul{
+
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    margin-top: 1rem;
+    padding: 0;
+}
+
+.nav li{
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.nav a{
+    text-decoration: none;
+    color: blueviolet; 
+}
+
+.nav .nav-search{
+
+  margin-top: 0.5rem;
+  margin-left: 2rem;
+  margin-right: 5%;
+  padding-left: 5rem;
+  flex: 1;
+  display: flex;
+}
+.nav input {
+    margin-top: 1rem;
+    width: 20rem;
+    height: 2.2rem;
+    border: solid;
+    border-width: 0.1px;
+    outline: none;
+    border-color: #333333;
+  }
+  
+  .nav button {
+    margin-top: 1rem;
+    width: 5rem;
+    height: 2.2rem;
+    border: none;
+    background-color: #333333;
+    color: white;
+  }
+
+  .logout-seller{
+    cursor: pointer;
+  }
+
+.search-results{
+
+    position:absolute;
+    flex-direction: column;
+    z-index: 10;
+    background-color: #fff;
+    width: 16rem;
+    top: 2.5rem;
+    border: 1px solid #ddd;
+
+}
+
+.search-results li{
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  list-style: none;
+  list-style-type: none;
+}
+
+.search-results li a{
+  cursor: pointer;
+  color: rgb(22, 82, 104);
+}
+
+*/
+
+.navbar-brand {
+  color: blueviolet;
+  margin: 0;
+  font-size: 2.5rem;
+  cursor: pointer;
+}
+.searcha{
+
+  display : flex;
+  width: 20rem;
+}
+
+
+.search{
+
+    position:absolute;
+    flex-direction: column;
+    width: 15.5rem;
+    z-index: 10;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    margin-top: 2.3rem;
+    padding: 0;
+}
+
+.search li{
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  list-style: none;
+}
+
+.search li a{
+  cursor: pointer;
+  color: rgb(22, 82, 104);
+}
+
+.navbar-nav{
+
+  margin-left: 5rem;
+}
+
+a{
+  cursor: pointer;
+}
+
+.navbar-nav li a {
+
+  font-size: 1.1rem;
+  font-weight: 600;
+}

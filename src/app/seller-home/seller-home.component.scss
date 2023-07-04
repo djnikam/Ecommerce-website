@@ -1,0 +1,35 @@
+table{
+    text-align: left;
+    color: rgb(232, 81, 199);
+    border-collapse: collapse;
+}
+
+table td, table th{
+    border: 0.07rem solid black;
+    padding: 0.6rem;
+    min-height: 10rem;
+}
+
+img{
+    height: 6rem;
+    width: 6rem;
+}
+
+.msg-p{
+    color: green;
+}
+
+.delpro{
+    color: red;
+    cursor: pointer;
+}
+
+.editpro{
+    color: rgb(108, 39, 168);
+    cursor: pointer;
+}
+
+.proList{
+  
+    margin-bottom: 8rem;
+}
