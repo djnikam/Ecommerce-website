@@ -41,6 +41,24 @@
       "email": "a@gmail.com",
       "password": "1234",
       "id": 10
+    },
+    {
+      "u_nm": "Sourabh",
+      "email": "sour@123",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "u_nm": "Malhar",
+      "email": "malhar@123",
+      "password": "123",
+      "id": 12
+    },
+    {
+      "u_nm": "Sourabh",
+      "email": "sou@123",
+      "password": "123",
+      "id": 13
     }
   ],
   "products": [
@@ -144,15 +162,6 @@
       "id": 11
     },
     {
-      "pro_nm": "King",
-      "pro_price": "♾️",
-      "pro_color": "",
-      "pro_catg": "",
-      "pro_desc": "DYPATIL",
-      "pro_url": "https://media.licdn.com/dms/image/C4D03AQHe5hgDgBCQFg/profile-displayphoto-shrink_800_800/0/1634394948634?e=1686182400&v=beta&t=IxczqRBID46-MKluPeOGzIGp9dlcdxb9sOYBbFXyi-g",
-      "id": 12
-    },
-    {
       "pro_nm": "Women's Knitted",
       "pro_price": "999",
       "pro_color": "Black",
@@ -160,6 +169,24 @@
       "pro_desc": "",
       "pro_url": "https://m.media-amazon.com/images/I/31Dv4PiE8eL.jpg",
       "id": 13
+    },
+    {
+      "pro_nm": "Seiko Men's Analogue Steel Automatic Watch",
+      "pro_price": "22375",
+      "pro_color": "Silver",
+      "pro_catg": "watch/wearables",
+      "pro_desc": "None.",
+      "pro_url": "https://m.media-amazon.com/images/I/61N-OO1FNvL._UX679_.jpg",
+      "id": 14
+    },
+    {
+      "pro_nm": "A2Z Wireless Bluetooth Headphone Over The Ear Style 01",
+      "pro_price": "2899",
+      "pro_color": "Black",
+      "pro_catg": "Headphone",
+      "pro_desc": "Best Headphones",
+      "pro_url": "https://m.media-amazon.com/images/I/81cz9Qim4yL._SL1500_.jpg",
+      "id": 15
     }
   ],
   "users": [
@@ -192,6 +219,48 @@
       "email": "y@gmail.com",
       "password": "y",
       "id": 5
+    },
+    {
+      "u_nm": "Ganesh",
+      "email": "ganesh@gmail.com",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "u_nm": "Sumit",
+      "email": "sumit@123",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "u_nm": "Sumitp",
+      "email": "sumit@gmail.com",
+      "password": "1234",
+      "id": 8
+    },
+    {
+      "u_nm": "Sourabh",
+      "email": "sou@gmail.com",
+      "password": "12345",
+      "id": 9
+    },
+    {
+      "u_nm": "Sumit",
+      "email": "sumit@gmail.com",
+      "password": "Pass",
+      "id": 10
+    },
+    {
+      "u_nm": "Sou",
+      "email": "sou@123",
+      "password": "123",
+      "id": 11
+    },
+    {
+      "u_nm": "mal",
+      "email": "mal@123",
+      "password": "123",
+      "id": 12
     }
   ],
   "cart": [
@@ -220,18 +289,6 @@
       "id": 7
     },
     {
-      "pro_nm": "Dell Mouse",
-      "pro_price": "1000",
-      "pro_color": "Black",
-      "pro_catg": "Hardware",
-      "pro_desc": "Dell WM-118 Wireless",
-      "pro_url": "https://m.media-amazon.com/images/I/41442+dKbsS._SX679_.jpg",
-      "quantity": 3,
-      "productId": 3,
-      "userId": 4,
-      "id": 10
-    },
-    {
       "pro_nm": "Dell Inspiron 5518",
       "pro_price": "75000",
       "pro_color": "Silver",
@@ -242,6 +299,66 @@
       "productId": 2,
       "userId": 4,
       "id": 11
+    },
+    {
+      "pro_nm": "Women's Knitted",
+      "pro_price": "999",
+      "pro_color": "Black",
+      "pro_catg": "clothing",
+      "pro_desc": "",
+      "pro_url": "https://m.media-amazon.com/images/I/31Dv4PiE8eL.jpg",
+      "quantity": 2,
+      "productId": 13,
+      "userId": 6,
+      "id": 12
+    },
+    {
+      "pro_nm": "Women's Knitted",
+      "pro_price": "999",
+      "pro_color": "Black",
+      "pro_catg": "clothing",
+      "pro_desc": "",
+      "pro_url": "https://m.media-amazon.com/images/I/31Dv4PiE8eL.jpg",
+      "quantity": 2,
+      "productId": 13,
+      "userId": 6,
+      "id": 13
+    },
+    {
+      "pro_nm": "Women sweatshirt",
+      "pro_price": "600",
+      "pro_color": "Pink",
+      "pro_catg": "Clothing",
+      "pro_desc": "No",
+      "pro_url": "https://m.media-amazon.com/images/I/71ppcINjGRL._UL1500_.jpg",
+      "quantity": 1,
+      "productId": 7,
+      "userId": 10,
+      "id": 14
+    },
+    {
+      "pro_nm": "Cotton Kurta",
+      "pro_price": "1000",
+      "pro_color": "Orange",
+      "pro_catg": "clothing",
+      "pro_desc": "No",
+      "pro_url": "https://m.media-amazon.com/images/I/41f2MmCKzXL.jpg",
+      "quantity": 2,
+      "productId": 8,
+      "userId": 12,
+      "id": 15
+    },
+    {
+      "pro_nm": "Dell Mouse",
+      "pro_price": "1000",
+      "pro_color": "Black",
+      "pro_catg": "Hardware",
+      "pro_desc": "Dell WM-118 Wireless",
+      "pro_url": "https://m.media-amazon.com/images/I/41442+dKbsS._SX679_.jpg",
+      "quantity": 1,
+      "productId": 3,
+      "userId": 4,
+      "id": 16
     }
   ],
   "orders": [
