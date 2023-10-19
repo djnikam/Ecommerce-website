@@ -146,4 +146,3 @@ Similar like that of Seller
 <!-- Local data to DB -->
 1. Created service beacause some Error is occuring in ts it not displaying any value on console
 2. creted localToDBCart service
-3. 
